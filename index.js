@@ -3,6 +3,8 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./generateMarkdown.js");
 const { askLicense } = require("./generateMarkdown");
 
+// const { chooseLicense } = require("./generateMarkdown");
+
 // TODO: Create an array of questions for user input
 const questions = [];
 
