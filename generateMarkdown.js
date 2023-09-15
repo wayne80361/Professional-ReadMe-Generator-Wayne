@@ -1,5 +1,21 @@
+const inquirer = require("inquirer");
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+function askLicense() {
+  inquirer
+    .prompt([
+      {
+        type: "confirm",
+        message: "Would you like to use a license?",
+        name: "NeedLicense",
+      },
+    ])
+    .then(function (response) {
+      console.log(response);
+    });
+}
+
 function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
@@ -17,4 +33,10 @@ function generateMarkdown(data) {
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = {
+  generateMarkdown,
+  askLicense,
+  renderLicenseBadge,
+  renderLicenseLink,
+  renderLicenseSection,
+};
