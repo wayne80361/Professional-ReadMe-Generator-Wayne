@@ -16,6 +16,9 @@ function askLicense() {
       if (response.NeedLicense == true) {
         chooseLicense();
       } else console.log("License not needed");
+      fs.writeFile("test.MD", "", (err) =>
+        err ? console.error(err) : console.log("Commit logged!")
+      );
     });
 }
 
@@ -94,7 +97,6 @@ function renderLicenseBadge(badge) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -112,6 +114,5 @@ module.exports = {
   askLicense,
   chooseLicense,
   renderLicenseBadge,
-  renderLicenseLink,
   renderLicenseSection,
 };
