@@ -55,6 +55,11 @@ const questions = [
     message: "Test Instruction",
     name: "test",
   },
+  {
+    type: "input",
+    message: "Any additional information",
+    name: "additionalinfo",
+  },
 ];
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -161,7 +166,7 @@ function askQuestions(badgeAndLink) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data, badgeAndLink) {
   fs.writeFile(
-    "ReadMe.md",
+    "Sample-ReadMe.md",
     `# <Your-Project-Title>${data.title}
     
   ## Description ${badgeAndLink}
@@ -181,6 +186,7 @@ function generateMarkdown(data, badgeAndLink) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license-and-badges)
+  - [Additional Info](#additional-infomation)
   
   ## Installation
   
@@ -211,6 +217,9 @@ function generateMarkdown(data, badgeAndLink) {
     
   ## Tests
   ${data.test}
+
+  ## Additional-Infomation
+  ${data.additionalinfo}
     `,
     (err) => (err ? console.error(err) : console.log("Commit logged!"))
   );
