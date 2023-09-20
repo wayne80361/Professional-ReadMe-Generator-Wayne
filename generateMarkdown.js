@@ -68,10 +68,13 @@ function askLicense() {
     .then(function (response) {
       if (response.NeedLicense == true) {
         chooseLicense();
-      } else console.log("License not needed");
-      fs.writeFile("test.MD", "", (err) =>
-        err ? console.error(err) : console.log("Commit logged!")
-      );
+      } else {
+        console.log("License not needed");
+        askQuestions("");
+      }
+      // fs.writeFile("test2.MD", "", (err) =>
+      //   err ? console.error(err) : console.log("Commit logged!")
+      // );
     });
 }
 
@@ -206,7 +209,6 @@ function generateMarkdown(data, badgeAndLink) {
 
   
   ## License-and-Badges
-  click on the badge to see license details
   ${badgeAndLink}
   
   --- 
