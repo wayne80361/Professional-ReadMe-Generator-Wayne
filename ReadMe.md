@@ -1,19 +1,19 @@
-# <Your-Project-Title>11112
+# <Your-Project-Title>Professional ReadMe Generator
     
-  ## Description 
+  ## Description [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   - What was your motivation?
 
-  213232
+  To build a ReadMe template and generate it in shorter time
   - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 
-  3213213
+  to save time on writing new readme
   - What problem does it solve?
 
-  1321561
+  save time and keep the readme structure consistent
   - What did you learn?
 
-  13216
+  MD file structure and node.js
   
   ## Table of Contents 
     
@@ -24,12 +24,12 @@
   
   ## Installation
   
-  1315
+  type 'node index.js' in integrated terminal to start
 
   ## Usage
   
   
-  135231
+  follow the question set
 
   To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
   
@@ -38,18 +38,18 @@
       ```
   
   ## Credits
-  1519
+  Github badges &  links, GitHub ReadMe template, and Wayne
 
   
   ## License-and-Badges
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   --- 
   
   ## Features
-  3156
+  generate ReadMe file
   
     
   ## Tests
-  11561
+  none
     
