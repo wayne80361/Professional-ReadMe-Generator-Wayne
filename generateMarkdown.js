@@ -1,8 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const questions = require("./index.js");
-// console.log(questions);
-let badgeAndLink;
+
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -49,12 +47,20 @@ const questions = [
   },
   {
     type: "input",
+    message: "what are some features?",
+    name: "feature",
+  },
+  {
+    type: "input",
     message: "Test Instruction",
     name: "test",
   },
 ];
-
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
 // TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+// TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function askLicense() {
   inquirer
@@ -72,9 +78,6 @@ function askLicense() {
         console.log("License not needed");
         askQuestions("");
       }
-      // fs.writeFile("test2.MD", "", (err) =>
-      //   err ? console.error(err) : console.log("Commit logged!")
-      // );
     });
 }
 
@@ -147,10 +150,6 @@ function renderLicenseBadge(badge) {
       break;
   }
   askQuestions(badgeAndLink);
-  // return badgeAndLink;
-  // fs.writeFile("test.MD", badgeAndLink, (err) =>
-  //   err ? console.error(err) : console.log("Commit logged!")
-  // );
 }
 
 function askQuestions(badgeAndLink) {
@@ -159,17 +158,10 @@ function askQuestions(badgeAndLink) {
   });
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data, badgeAndLink) {
   fs.writeFile(
-    "test2.MD",
+    "ReadMe.md",
     `# <Your-Project-Title>${data.title}
     
   ## Description ${badgeAndLink}
@@ -214,7 +206,7 @@ function generateMarkdown(data, badgeAndLink) {
   --- 
   
   ## Features
-  
+  ${data.feature}
   
     
   ## Tests
@@ -229,5 +221,4 @@ module.exports = {
   askLicense,
   chooseLicense,
   renderLicenseBadge,
-  renderLicenseSection,
 };
