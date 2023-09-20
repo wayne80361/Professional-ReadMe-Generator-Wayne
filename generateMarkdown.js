@@ -57,6 +57,16 @@ const questions = [
   },
   {
     type: "input",
+    message: "What is Github username",
+    name: "username",
+  },
+  {
+    type: "input",
+    message: "What is your email",
+    name: "email",
+  },
+  {
+    type: "input",
     message: "Any additional information",
     name: "additionalinfo",
   },
@@ -219,7 +229,10 @@ function generateMarkdown(data, badgeAndLink) {
   ${data.test}
 
   ## Additional-Infomation
+  Github: https://github.com/${data.username}
+  Email: ${data.email}
   ${data.additionalinfo}
+
     `,
     (err) => (err ? console.error(err) : console.log("Commit logged!"))
   );
