@@ -12,11 +12,11 @@ To save time on writing new readme
 
 - What problem does it solve?
 
-Save time and keep the reame structure consistent
+Save time and keep the readme structure consistent
 
 - What did you learn?
 
-MD file structure and node.js
+MD file structure and node
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ MD file structure and node.js
 
 ## Installation
 
-type 'node index.js' in integrated terminal to start
+node index
 
 ## Usage
 
@@ -42,7 +42,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-Github badges & links, GitHub ReadMe template, and Wayne
+Github badges, link, ReadMe template, and Wayne
 
 ## License-and-Badges
 
@@ -52,7 +52,7 @@ Github badges & links, GitHub ReadMe template, and Wayne
 
 ## Features
 
-Generate ReadMe.md file
+ReadMe generator
 
 ## Tests
 
@@ -60,8 +60,15 @@ none
 
 ## Additional-Infomation
 
-REPO LINK: https://github.com/wayne80361/Professional-ReadMe-Generator-Wayne/tree/main
+Github: https://github.com/wayne80361
 
-Video Link: https://drive.google.com/file/d/1JHtFp4kxDUAhY9TRZF8Wv_vco09k_PY5/view?usp=sharing
+Email: wayne80361@gmail.com
 
-Sample-ReadMe Link: https://github.com/wayne80361/Professional-ReadMe-Generator-Wayne/blob/main/Sample-ReadMe.md
+REPO LINK:
+https://github.com/wayne80361/Professional-ReadMe-Generator-Wayne/tree/main
+
+Video Link:
+https://drive.google.com/file/d/1LZTnP3TRmaQjOGsNd6icSzg5o30ZRsnj/view?usp=sharing
+
+Sample-ReadMe Link:
+https://github.com/wayne80361/Professional-ReadMe-Generator-Wayne/blob/main/Sample-ReadMe.md

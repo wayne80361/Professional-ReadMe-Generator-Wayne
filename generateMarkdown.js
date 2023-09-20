@@ -229,8 +229,8 @@ function generateMarkdown(data, badgeAndLink) {
   ${data.test}
 
   ## Additional-Infomation
-  Github: https://github.com/${data.username}
-  Email: ${data.email}
+  Github: https://github.com/${data.username}\n
+  Email: ${data.email}\n
   ${data.additionalinfo}
 
     `,
