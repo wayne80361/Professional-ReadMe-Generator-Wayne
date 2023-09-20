@@ -166,7 +166,7 @@ function askQuestions(badgeAndLink) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data, badgeAndLink) {
   fs.writeFile(
-    "Sample-ReadMe.md",
+    "ReadMe.md",
     `# <Your-Project-Title>${data.title}
     
   ## Description ${badgeAndLink}
