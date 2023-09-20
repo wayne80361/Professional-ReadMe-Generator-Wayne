@@ -1,63 +1,64 @@
-# <Your-Project-Title>Sample ReadMe Generator Title
+# <Your-Project-Title>Sample Title
+    
+  ## Description [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+  
+  - What was your motivation?
 
-## Description [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  Sample motivation
+  - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 
-- What was your motivation?
+  Sample Reason
+  - What problem does it solve?
 
-Sample Motivation
+  Sample problem Resolved
+  - What did you learn?
 
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+  Sample learn
+  
+  ## Table of Contents 
+    
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license-and-badges)
+  - [Additional Info](#additional-infomation)
+  
+  ## Installation
+  
+  Sample installation
 
-Sample Reason for building the project
+  ## Usage
+  
+  
+  Sample usage
 
-- What problem does it solve?
-
-Sample problem resolved
-
-- What did you learn?
-
-Sample Knowledge learn
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license-and-badges)
-- [Additional Info](#additional-infomation)
-
-## Installation
-
-Sample installation guide
-
-## Usage
-
-Sample usage
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
+  To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+  
       ```md
       ![alt text](assets/images/screenshot.png)
       ```
+  
+  ## Credits
+  Sample Credit
 
-## Credits
+  
+  ## License-and-Badges
+  [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+  
+  --- 
+  
+  ## Features
+  Sample Feature
+  
+    
+  ## Tests
+  Sample test none
 
-Sample Credit
+  ## Additional-Infomation
+  Github: https://github.com/SampleUserName
 
-## License-and-Badges
+  Email: Sample@sample.com
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  Sample Additional info
 
----
-
-## Features
-
-Sample Features
-
-## Tests
-
-Sample Test
-
-## Additional-Infomation
-
-Sample Additional Info
+    
