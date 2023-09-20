@@ -52,4 +52,12 @@
     
   ## Tests
   none
+
+  ## Additional-Infomation
+
+REPO LINK: https://github.com/wayne80361/Professional-ReadMe-Generator-Wayne/tree/main
+
+Video Link: https://drive.google.com/file/d/1JHtFp4kxDUAhY9TRZF8Wv_vco09k_PY5/view?usp=sharing
+
+Sample-ReadMe Link: https://github.com/wayne80361/Professional-ReadMe-Generator-Wayne/blob/main/Sample-ReadMe.md
     
